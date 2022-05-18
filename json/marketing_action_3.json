@@ -2,7 +2,7 @@
   "id": "b6a8eb00cf784270bb1162303111724d",
   "organization_id": "00000000000040008000000000000000",
   "project_id": "329d31a3da474eb79a7eab7f09c6e418",
-  "description": "購入後ステップ配信 222",
+  "description": "購入後ステップ配信 333",
   "marketing_action_type_id": 4,
   "start_at": "2022-05-10T11:35:45.459921",
   "end_at": "2022-05-30T11:35:45.459921",
@@ -46,7 +46,7 @@
       }
     ]
   },
-  "status": "draft",
+  "status": "complete",
   "target_segments": [
     {
       "segment": "F0",

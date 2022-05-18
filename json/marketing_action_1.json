@@ -99,8 +99,8 @@
       "is_sleep": true
     }
   ],
-  "created_at": "2022-05-17T11:35:45.459921",
-  "updated_at": "2022-05-17T11:35:45.459921",
+  "created_at": "2022-05-10T11:35:45.459921",
+  "updated_at": "2022-05-10T11:35:45.459921",
   "marketing_action_type": {
     "name": "購入後ステップ配信",
     "type": "notification",
