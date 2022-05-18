@@ -1,0 +1,14 @@
+{
+  "cart": [
+    "marketing_action_1.json",
+    "marketing_action_2.json"
+  ],
+  "top": [
+    "marketing_action_3.json",
+    "marketing_action_4.json"
+  ],
+  "products": [
+    "marketing_action_5.json",
+    "marketing_action_6.json"
+  ]
+}
