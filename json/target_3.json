@@ -1,0 +1,40 @@
+{
+  "expire_at": "2022-06-30T01:56:57+0000",
+  "debug_desc": "target_3.json",
+  "items": [
+    {
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/nlp-line-resized/7/3d4d5c78ff9f45eb912cc39822811b23.jpg/origin",
+      "image_size": "16_9",
+      "image_showing_method": "cover",
+      "image_link": "https://news.google.co.jp/",
+      "image_alt": "google news",
+      "title": "タイトル 1",
+      "text": "メッセージ＊ 1",
+      "buttons": [
+        {
+          "type": "uri",
+          "label": "1 a",
+          "text": "1 a",
+          "uri": "https://f013-61-23-24-43.ngrok.io/url/bbbqs::carousel_1a/ec3f9fa1-285a-4509-8ea9-f035d3d84d7e"
+        }
+      ]
+    },
+    {
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/nlp-line-resized/7/fcbfb1f2dca547d782ceecd45b5a5674.png/origin",
+      "title": "タイトル 2",
+      "text": "メッセージ＊2",
+      "image_size": "16_9",
+      "image_showing_method": "cover",
+      "image_alt": "yahoo news",
+      "image_link": "https://news.yahoo.co.jp/",
+      "buttons": [
+        {
+          "type": "uri",
+          "label": "2 a",
+          "text": "",
+          "uri": "https://f013-61-23-24-43.ngrok.io/url/wk29t::carousel_2a/ec3f9fa1-285a-4509-8ea9-f035d3d84d7e"
+        }
+      ]
+    }
+  ]
+}
