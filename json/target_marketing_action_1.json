@@ -8,8 +8,8 @@
       "image_showing_method": "cover",
       "image_link": "https://news.google.co.jp/",
       "image_alt": "google news",
-      "title": "タイトル 1",
-      "text": "メッセージ＊ 1",
+      "title": "タイトル 1 1",
+      "text": "メッセージ＊ 1 1",
       "buttons": [
         {
           "type": "uri",
@@ -21,8 +21,8 @@
     },
     {
       "image_url": "https://d2ixvq6dqmuoso.cloudfront.net/line/resized/1/cd6b3591489548a588d7314ec58921b9.png/origin",
-      "title": "タイトル 2",
-      "text": "メッセージ＊2",
+      "title": "タイトル 1 2",
+      "text": "メッセージ＊ 1 2",
       "image_size": "16_9",
       "image_showing_method": "cover",
       "image_alt": "yahoo news",
