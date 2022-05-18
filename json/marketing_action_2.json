@@ -1,39 +1,109 @@
 {
-  "expire_at": "2022-05-31T01:56:57+0000",
-  "items": [
+  "id": "b6a8eb00cf784270bb1162303111724d",
+  "organization_id": "00000000000040008000000000000000",
+  "project_id": "329d31a3da474eb79a7eab7f09c6e418",
+  "description": "購入後ステップ配信",
+  "marketing_action_type_id": 4,
+  "start_at": "2022-05-10T11:35:45.459921",
+  "end_at": "2022-05-30T11:35:45.459921",
+  "settings": {
+    "enable_line": true,
+    "step_messages": [
+      {
+        "send_at": "10:00",
+        "template": "review",
+        "send_flag": true,
+        "send_order": 1,
+        "mail_content": {
+          "color": "#55C5D9",
+          "title_draft_raw": "{\"blocks\":[{\"key\":\"er8ub\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+          "content_draft_raw": "{\"blocks\":[{\"key\":\"er8ub\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+        },
+        "line_messages": {
+          "text_msg_display": false,
+          "flex_msg_image_ratio": "1:1"
+        },
+        "send_after_days": 1,
+        "content_verified": true
+      },
+      {
+        "send_at": "10:00",
+        "template": "review",
+        "send_flag": false,
+        "send_order": 2,
+        "mail_content": {
+          "color": "#55C5D9",
+          "title_draft_raw": "{\"blocks\":[{\"key\":\"er8ub\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+          "content_draft_raw": "{\"blocks\":[{\"key\":\"er8ub\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+        },
+        "line_messages": {
+          "text_msg_display": false,
+          "flex_msg_image_ratio": "1:1"
+        },
+        "report_period": "monthly",
+        "send_after_days": 1,
+        "content_verified": true
+      }
+    ]
+  },
+  "status": "draft",
+  "target_segments": [
     {
-      "image_url": "https://d2ixvq6dqmuoso.cloudfront.net/line/resized/1/97c442fa55ff4c81a476c2816bfb0a98.png/origin",
-      "image_size": "16_9",
-      "image_showing_method": "cover",
-      "image_link": "https://news.google.co.jp/",
-      "image_alt": "google news 2",
-      "title": "タイトル 2 1",
-      "text": "メッセージ＊ 2 1",
-      "buttons": [
-        {
-          "type": "uri",
-          "label": "1 a",
-          "text": "1 a",
-          "uri": "https://f013-61-23-24-43.ngrok.io/url/bbbqs::carousel_1a/ec3f9fa1-285a-4509-8ea9-f035d3d84d7e"
-        }
-      ]
+      "segment": "F0",
+      "is_member": true,
+      "is_sleep": false
     },
     {
-      "image_url": "https://d2ixvq6dqmuoso.cloudfront.net/line/resized/1/f539e8d52e514a5bbad7ab7c6e50b029.png/origin",
-      "title": "タイトル 2 2",
-      "text": "メッセージ＊2 2",
-      "image_size": "16_9",
-      "image_showing_method": "cover",
-      "image_alt": "yahoo news 2",
-      "image_link": "https://news.yahoo.co.jp/",
-      "buttons": [
-        {
-          "type": "uri",
-          "label": "2 a",
-          "text": "",
-          "uri": "https://f013-61-23-24-43.ngrok.io/url/wk29t::carousel_2a/ec3f9fa1-285a-4509-8ea9-f035d3d84d7e"
-        }
-      ]
+      "segment": "F1",
+      "is_member": true,
+      "is_sleep": false
+    },
+    {
+      "segment": "F2",
+      "is_member": true,
+      "is_sleep": false
+    },
+    {
+      "segment": "semi_loyal",
+      "is_member": true,
+      "is_sleep": false
+    },
+    {
+      "segment": "loyal",
+      "is_member": true,
+      "is_sleep": false
+    },
+    {
+      "segment": "F1",
+      "is_member": true,
+      "is_sleep": true
+    },
+    {
+      "segment": "loyal",
+      "is_member": true,
+      "is_sleep": true
+    },
+    {
+      "segment": "F0",
+      "is_member": true,
+      "is_sleep": true
+    },
+    {
+      "segment": "F2",
+      "is_member": true,
+      "is_sleep": true
+    },
+    {
+      "segment": "semi_loyal",
+      "is_member": true,
+      "is_sleep": true
     }
-  ]
+  ],
+  "created_at": "2022-05-17T11:35:45.459921",
+  "updated_at": "2022-05-17T11:35:45.459921",
+  "marketing_action_type": {
+    "name": "購入後ステップ配信",
+    "type": "notification",
+    "alias": "AFTER_PURCHASE"
+  }
 }
